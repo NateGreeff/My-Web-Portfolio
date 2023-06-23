@@ -1,0 +1,45 @@
+/* Variables  */
+:root {
+  --primary-color: #555;
+  --primary-color-light: #888;
+  --primary-color-dark: #333;
+  --primary-color-text: #ffffff;
+}
+
+/* Global  */
+body {
+  background: url("../img/background.png"), linear-gradient(350deg,#333,#888);
+  background-attachment: fixed;
+  background-size: cover;
+  color: var(--primary-color-text);
+}
+
+/* Header  */
+header {
+  margin-top: 5vh;
+  background-color: var(--primary-color-dark);
+  color: var(--primary-color-text);
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+nav img {
+  margin: 0 1rem;
+}
+
+nav h2 {
+  margin: 0;
+  font: 1.5rem 'Roboto', sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  padding: 0;
+}
