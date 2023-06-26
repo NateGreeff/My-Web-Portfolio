@@ -120,7 +120,6 @@ main section h2 {
   align-items: center;
   height: auto;
   width: 45%;
-  border: solid 1px black;
   margin: 2.5%;
   box-shadow: #000 5px 5px 10px;
   transition: background-color 0.5s ease;
@@ -154,13 +153,15 @@ main section h2 {
   justify-content: center;
   align-items: center;
   align-self: center;
-  height: 3vh;
-  width: 5vw;
+  height: 5vh;
+  width: 10vw;
+  min-width: auto;
   background-color: var(--primary-color-dark);
   box-shadow: #000 5px 5px 10px;
   font: 1.5rem 'Roboto', sans-serif;
   transition: box-shadow 0.5s ease;
   transition: background-color 0.5s ease;
+  overflow: hidden;
 }
 
 #contact a:hover {
@@ -169,7 +170,8 @@ main section h2 {
   color: #333;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+
   header {
     margin:0;
     border-radius: 0;
@@ -194,12 +196,26 @@ main section h2 {
   nav ul li a {
     display: flex;
     justify-content: center;
-    padding-bottom: 2vh
+    padding: 4vh 2vw;
+    border-radius: 0;
+    border-bottom: #000 solid 1px;
+  }
+
+  main {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+    box-shadow: none;
   }
 
   #portfolio-links a {
     width: 90%;
     margin: 5%;
+  }
+
+  #contact a {
+    width: 30vw;
   }
 
 }
