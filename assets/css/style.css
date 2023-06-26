@@ -99,9 +99,27 @@ main section h2 {
 
 }
 
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about h2 {
+  align-self: start;
+}
+
 #about p {
   margin-left: 50px;
   font: 1.4rem 'Roboto', sans-serif;
+}
+
+#about img {
+  margin: 0 2rem;
+  height: 30vh;
+  /* border-radius: 50%; */
+  /* box-shadow: 5px 5px 10px #000; */
 }
 
 #portfolio-links {
