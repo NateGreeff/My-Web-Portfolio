@@ -21,7 +21,7 @@ https://nategreeff.github.io/My-Web-Portfolio/
 
 ## Screenshot
 
-![image](https://github.com/NateGreeff/My-Web-Portfolio/assets/21099065/84784afd-5f86-4032-8a5d-468c4fa48322)
+![image](https://github.com/NateGreeff/My-Web-Portfolio/assets/21099065/652f2fbf-ea37-4d50-af6a-c524e3985e3b)
 
 ## License
 
