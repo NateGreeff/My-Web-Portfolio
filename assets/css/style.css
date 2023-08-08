@@ -143,6 +143,7 @@ main section h2 {
   transition: background-color 0.5s ease;
   transition: box-shadow 0.5s ease;
   user-select: none;
+  opacity: 0.8;
 }
 
 #portfolio-links a:first-child {
@@ -153,6 +154,7 @@ main section h2 {
   background-color: var(--secondary-color);
   box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px var(--secondary-color);
   color: #333;
+  opacity: 1;
 }
 
 #portfolio-links a p {
